@@ -1,0 +1,19 @@
+{{> htmlStart}}
+
+{{#each images}}
+    <div class="row">
+        <div class="d-inline-flex p-2 bg-highlight justify-content-center">
+            <div class="card card-bloc col-6" style="height:100%">
+                <h4><b>Caméra : {{ idCam }}</b></h4>
+                {{#equal erreur 0 }}
+                    <img src="{{image}}" class="rounded img-fluid" width="25%"/>
+                {{/equal }}
+                {{#equal erreur 1 }}
+                    <div width="200">Image non disponible : {{errmsg}}</div>
+                {{/equal }}
+            </div>
+        </div>
+    </div>
+{{/each}}
+
+{{> htmlEnd}}
