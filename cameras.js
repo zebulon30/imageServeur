@@ -10,7 +10,7 @@ const cameras = [
         snapshot: "/tmpfs/snap.jpg",
         authBasic: "N",
         user: "admin",
-        pass: "MdpDahua30",
+        pass: "xxxxxx",
         actif: 1,
     },
     {
@@ -20,7 +20,7 @@ const cameras = [
         snapshot: "/tmpfs/snap.jpg",
         authBasic: "N",
         user: "admin",
-        pass: "MdpDahua30",
+        pass: "xxxxxx",
         actif: 1,
     }
 ];
